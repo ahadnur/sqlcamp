@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2d30b43927.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>SQL Camp</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo"><i class="fas fa-brain"></i> SQL CAMP</a>
+        <ul>
+            <li><a href="#bootcamps" onclick="toggle()">Bootcamps</a></li>
+            <li><a href="#admission" onclick="toggle()">Admissions</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#contact" onclick="toggle()">Contact</a></li>
+            <li><a href="#free-resources" onclick="toggle()">Free Resources</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="heading1">
+                <h1>SQL Camp: <span>Professional IT Training</span></h1>
+            </div>
+            <div class="heading2">
+                <p class="ban-heading2">Learn to Code</p>
+                <p class="ban-heading2">Earn a Certification</p>
+                <p class="ban-heading2">IT Training</p>
+                <p class="ban-heading2">Pair with an Expert &amp; Free Courses</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn-reg"><a href="#free-resources">Start Learning</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootcamp -->
+    <section id="bootcamps">
+        <div class="bootcamp">
+            <div class="boot-head">
+                <h1>Personalized learning, <span>1-1 Bootcamps</span>, Interactive Courses.</h1>               <p>I've aggregated and organized 100s of free resources for you so you can learn. We also offer 1-1 professional training on following topics</p>
+            </div>            
+            <div class="grid-container">
+                <div class="box">
+                    <h2><i class="fab fa-python"></i></h2>
+                    <h4>Python: Data Science (Free Courses)</h4>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-database"></i></h2>
+                    <h4>Art of SQL: BI Developers</h4>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-cloud"></i></h2>
+                    <h4>Azure: Cloud Architect</h4>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-chart-area"></i></h2>
+                    <h4>Visualiation Tools: Beginner to Expert</h4>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-server"></i></h2>
+                    <h4>Modern Data Lake: Data Engineer</h4>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-cogs"></i></h2>
+                    <h4>Machine Learning at Scale: ML Engineer</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="admission">
+        <h1 class="add-heading">Admission <span>FAQs</span></h1>
+        <div class="faq">
+            <div class="accordian">
+                <div class="accordian-item">
+                    <div class="accordian-item-header">
+                        Is it free?
+                    </div>
+                    <div class="accordian-item-body">
+                        <div class="accordian-item-body-content">
+                            As a service to you we aggregate content around the web and provide you with best free resources. We also have paid training where we ease the effort and accelerate the time required for you to learn a new skill and pass an in demand IT certification.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordian-item">
+                    <div class="accordian-item-header">
+                        What is professional IT training like?
+                    </div>
+                    <div class="accordian-item-body">
+                        <div class="accordian-item-body-content">
+                            Our professional training will include a complet package: Official training material, a syllabus that aligns with an IT certification that you can attempt at the end. You will be paired 1-1 with an expert instructor who has industry experience and has passed the certification already. The credentials of the instructor can be verified and you may request a particular instructor depending on who is available.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordian-item">
+                    <div class="accordian-item-header">
+                        How are you different from other online courses and coding camps?
+                    </div>
+                    <div class="accordian-item-body">
+                        <div class="accordian-item-body-content">
+                            We offer premium training for those that are sick of studying for certificatons and want an instructor 1-1 to ease the process.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordian-item">
+                    <div class="accordian-item-header">
+                        I'd like to try the 1 - 1 certification training. How do I sign up?
+                    </div>
+                    <div class="accordian-item-body">
+                        <div class="accordian-item-body-content">
+                            We're still preparing for next intake. If you're interested please email sqlcamps@gmail.com for more information.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <h1 class="question-heading">More Questions?</h1>
+                <p>For more information, please call us at:</p>
+                <h1 class="question-number">855.599.9584</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Resources -->
+    <section id="free-resources" class="free-resources">
+        <div class="content">
+            <h1><span>Join Now</span> To Get<span> Free Resources</span></h1>
+            <h3>Already a student?</h3>
+            <h2>Login</h2>
+        </div>
+        <form>
+            <div class="login-form">
+                <input type="text" placeholder="Email" name="" required>
+            
+                <input type="password" placeholder="Password" name="" required>
+            
+                <button type="submit"><a href="#">Login</a></button>
+                <button type="submit"><a href="#">Register</a></button>
+            </div>
+        </form>
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
