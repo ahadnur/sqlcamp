@@ -122,6 +122,10 @@ header.sticky ul li a
     cursor: pointer;
 }
 
+.banner .container .btn-group .btn-reg a{
+    text-decoration: none;
+}
+
 .banner .container .btn-group .btn-reg:hover{
     background: rgb(121, 241, 241);
     transition: 0.7s;
@@ -179,7 +183,6 @@ header.sticky ul li a
     padding: 20px 40px;
     background: rgba(0, 255, 255, 0.774);
     text-align: center;
-    border-radius: 10px;
     overflow: hidden;
     box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.7);
 }
@@ -231,9 +234,9 @@ header.sticky ul li a
 .faq .accordian-item{
     background-color: rgb(0, 255, 255);
     color: rgb(57, 12, 100);
-    margin: 1rem 0;
-    border-radius: .5rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0, .25);
+    margin: .5rem 0;
+    /* border-radius: .5rem; */
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.7);
 }
 
 .question{
@@ -369,6 +372,10 @@ header.sticky ul li a
     width: 30%;
     font-size: 15px;
     font-weight: 500;
+}
+
+.free-resources button a{
+    text-decoration: none;
 }
 
 .free-resources button:hover{
