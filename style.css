@@ -558,7 +558,10 @@ header.sticky ul li a
     /* Bootcamp Section */
     .bootcamp .boot-head h1{
         margin-top: 100px;
-        padding: 0 20px;
+        padding: 0;
+        font-size: 35px;
+    }
+    .bootcamp .boot-head h1 span{
         font-size: 40px;
     }
 
@@ -595,6 +598,10 @@ header.sticky ul li a
     .question .question-heading{
         font-size: 35px;
     }
+    .question .question-number{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
     /* End Admission Section */
 
     /* Contact Section */
@@ -605,6 +612,7 @@ header.sticky ul li a
     .contact .content h1{
         font-size: 35px;
         padding-bottom: 30px;
+        margin-top: 50px;
     }
 
     .contact .content h1 span{
@@ -614,6 +622,10 @@ header.sticky ul li a
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+
+    .contact form button{
+        width: 40%;
     }
     /* End Contact Section */
 
