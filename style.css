@@ -112,7 +112,7 @@ header.sticky ul li a
 }
 
 .banner .container .btn-group .btn-reg{
-    background: aqua;
+    background: #80FF00;
     border: none;
     color: rgb(57, 12, 100);
     padding: 10px 40px;
@@ -128,7 +128,7 @@ header.sticky ul li a
 
 .banner .container .btn-group .btn-reg:hover{
     background: rgb(121, 241, 241);
-    transition: 0.7s;
+    transition: 0.5s ease-in-out;
 }
 
 /* End of Banner section */
@@ -184,7 +184,7 @@ header.sticky ul li a
     background: rgba(0, 255, 255, 0.774);
     text-align: center;
     overflow: hidden;
-    box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.7);
+    /* box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.7); */
 }
 
 .grid-container .box h2{
@@ -235,7 +235,7 @@ header.sticky ul li a
     background-color: rgb(0, 255, 255);
     color: rgb(57, 12, 100);
     margin: .5rem 0;
-    box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.7);
+    /* box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.7); */
 }
 
 .question{
@@ -304,6 +304,92 @@ header.sticky ul li a
 
 /* End Admission FAQ Section */
 
+/* Contact Section */
+
+.contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact .content{
+    color: #fff;
+    padding: 0 100px;
+}
+
+
+.contact .content h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.contact .content h1 span{
+    color: aqua;
+    font-size: 50px;
+}
+
+.contact .content h3{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.contact .mail-btn{
+    color: #80FF00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact form{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 100px;
+}
+
+.contact input[type=text], input[type=email], textarea{
+    width: 70%;
+    padding: 12px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    background: transparent;
+    border: none;
+    color: aqua;
+    border-bottom: 2px solid aqua;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.contact button{
+    background-color: #80FF00;
+    color: rgb(57, 12, 100);
+    padding: 14px 0;
+    margin: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact button:hover{
+    background-color: rgb(121, 241, 241);
+    transition: 0.5s ease-in-out;
+}
+
+.contact button a{
+    text-decoration: none;
+}
+/* End of contact section */
+
 /* Free resources Section */
 
 .free-resources{
@@ -362,7 +448,7 @@ header.sticky ul li a
 }
 
 .free-resources button {
-    background-color: aqua;
+    background-color: #80FF00;
     color: rgb(57, 12, 100);
     padding: 14px 0;
     margin: 10px 10px;
@@ -379,6 +465,7 @@ header.sticky ul li a
 
 .free-resources button:hover{
     background-color: rgb(121, 241, 241);
+    transition: 0.5s ease-in-out;
 }
 
 
