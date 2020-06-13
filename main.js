@@ -9,6 +9,12 @@ function toggle() {
 
 }
 
+// navbar toggler
+const toggleShow = document.querySelector('.navUl');
+function toggleActive(){
+    toggleShow.classList.toggle('show');
+}
+
 // Admission FAQ section
 const accordianItemHeaders = document.querySelectorAll('.accordian-item-header');
 
