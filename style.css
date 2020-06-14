@@ -16,6 +16,12 @@ body{
     background-image: linear-gradient(to right, rgb(45, 27, 87), rgb(66, 37, 94));
 }
 
+/* Placeholder color */
+::placeholder{
+    color: aqua;
+}
+/* End placeholder color */
+
 /* Nav Section */
 
 header{
