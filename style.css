@@ -466,9 +466,124 @@ header.sticky ul li a
     transition: 0.5s ease-in-out;
 }
 
+.free-resources .forgot-password{
+    margin-top: 20px;
+}
+
+.free-resources .forgot-password a{
+    color: #80FF00;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
 
 /* End of free resources section */
 
+
+/* Footer Section */
+footer{
+    width: 100%;
+    background-color:#BDBDBD;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foot .program{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.foot .program h3{
+    color: rgb(57, 12, 100);
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    text-transform: uppercase;
+
+}
+
+.foot .program a {
+    padding: 10px 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+}
+
+.foot .program a:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.foot .social-links{
+    flex: 1;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.foot .social-links p{
+    padding: 20px 0;
+}
+
+.foot .social-links a i{
+    color: rgb(57, 12, 100);
+    font-size: 50px;
+    padding: 0 10px;
+}
+
+.foot .about-sqlcamp{
+    flex: 1;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.foot .about-sqlcamp h1{
+    color: rgb(57, 12, 100);
+    letter-spacing: 3px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.foot .about-sqlcamp h1 i{
+    padding-right: 10px;
+    color: rgb(57, 12, 100);
+}
+
+.foot .about-sqlcamp h3{
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.foot .about-sqlcamp p{
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.foot .about-sqlcamp p a{
+    color: rgb(57, 12, 100);
+}
+
+footer .copyright{
+    background-color: #848484;
+    text-align: center;
+    padding: 10px;
+    color: rgb(57, 12, 100);
+
+}
+/* End Footer Section */
 
 /* Mobile Responsive codes */
 @media (max-width: 669px)
@@ -633,14 +748,53 @@ header.sticky ul li a
     /* End About section */
 
     /* Free Resources Section */
+    .free-resources{
+        margin: 50px 0;
+    }
+
     .free-resources .content{
         padding: 0 40px;
     }
     .free-resources .content h1{
         font-size: 35px;
+        margin-top: 50px;
     }
     .free-resources .content h1 span{
         font-size: 40px;
     }
     /* End Free Resources Section */
+
+    /* Footer Section */
+    .foot{
+        flex-direction: column;
+    }
+    .foot .program{
+        border-bottom: 2px solid;
+        border-image: linear-gradient(to right, transparent, rgb(57, 12, 100), transparent) 1;
+        margin: 20px 0;
+    }
+
+    .foot .social-links{
+        margin-bottom: 20px;
+        border-bottom: 2px solid;
+        border-image: linear-gradient(to right, transparent, rgb(57, 12, 100), transparent) 1;
+    }
+
+    .foot .social-links a{
+        margin-bottom: 20px;
+    }
+
+    .foot .social-links a i{
+        margin-bottom: 20px;
+    }
+
+    .foot .about-sqlcamp{
+        text-align: center;
+    }
+
+    .foot .about-sqlcamp p{
+        padding-bottom: 20px;
+    }
+
+    /* End Footer Section */
 }
