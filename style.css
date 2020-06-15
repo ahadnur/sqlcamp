@@ -152,7 +152,7 @@ header.sticky ul li a
 }
 
 .bootcamp .boot-head h1{
-    font-size: 40px;
+    font-size: 3.5rem;
     letter-spacing: 2px;
     color: #fff;
     margin-top: 80px;
@@ -307,6 +307,67 @@ header.sticky ul li a
 }
 
 /* End Admission FAQ Section */
+
+/* About section */
+.about{
+    margin: 0;
+    padding: 0 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about .about-head{
+    color: #fff;
+    margin-top: 100px;
+}
+
+.about .about-head h1{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.about .about-head h1 span{
+    color: aqua;
+    font-size: 50px;
+}
+
+.about .about-head h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about .accolades{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.about .accolades .accolade{
+    position: relative;
+    padding: 20px 0;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about .accolades .accolade img{
+    width: 80%;
+}
+/* End about section */
 
 /* Contact Section */
 
@@ -751,6 +812,33 @@ footer .copyright{
     /* End Contact Section */
 
     /* About Section */
+    .about{
+        margin: 0;
+        padding: 20px 40px;
+    }
+
+    .about .about-head h1{
+        font-size: 35px;
+    }
+
+    .about .about-head h1 span{
+        font-size: 40px;
+    }
+
+    .about .about-head h3{
+        font-size: 15px;
+    }
+
+    .about .accolades{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: none;
+    }
+
+    .about .accolades .accolade img{
+        width: 80%;
+    }
+
     /* End About section */
 
     /* Free Resources Section */
