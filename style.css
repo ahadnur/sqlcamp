@@ -140,7 +140,7 @@ header.sticky ul li a
 
 /* Bootcamp Section */
 
-.bootcamp{
+.courses{
     margin: 0;
     padding: 0;
     display: flex;
@@ -151,7 +151,7 @@ header.sticky ul li a
     text-align: center;
 }
 
-.bootcamp .boot-head h1{
+.courses .boot-head h1{
     font-size: 3.5rem;
     letter-spacing: 2px;
     color: #fff;
@@ -159,7 +159,7 @@ header.sticky ul li a
     padding: 0 100px;
 }
 
-.bootcamp .boot-head p{
+.courses .boot-head p{
     font-size: 16px;
     letter-spacing: 2px;
     padding: 10px 200px;
@@ -167,7 +167,7 @@ header.sticky ul li a
     color: blanchedalmond;
 }
 
-.bootcamp .boot-head h1 span{
+.courses .boot-head h1 span{
     color: aqua;
 }
 
@@ -185,10 +185,14 @@ header.sticky ul li a
 
 .grid-container .box{
     position: relative;
-    padding: 20px 40px;
-    background: rgba(0, 255, 255, 0.774);
+    padding: 20px 0;
+    background: #fff;
     text-align: center;
     overflow: hidden;
+}
+
+.grid-container .box:hover{
+    background: rgb(224, 224, 224);
 }
 
 .grid-container .box h2{
@@ -201,6 +205,24 @@ header.sticky ul li a
     color: rgb(57, 12, 100);
     font-size: 18px;
     font-weight: 300;
+}
+
+.grid-container .box .st-course{
+    margin-top: 30px;
+    font-size: 18px;
+    float: right;
+    margin-right: 20px;
+}
+
+.grid-container .box .st-course a{
+    text-decoration: none;
+    color: rgb(45, 27, 87);
+    padding: 5px 10px;
+    background-color: aqua;
+}
+
+.grid-container .box .st-course a i{
+    margin-left: 10px;
 }
 /* End of bootcamp section */
 
@@ -738,20 +760,20 @@ footer .copyright{
     /* End Banner Section */
 
     /* Bootcamp Section */
-    .bootcamp .boot-head h1{
+    .courses .boot-head h1{
         margin-top: 100px;
         padding: 0 20px;
         font-size: 35px;
     }
-    .bootcamp .boot-head h1 span{
+    .courses .boot-head h1 span{
         font-size: 40px;
     }
 
-    .bootcamp .boot-head p{
+    .courses .boot-head p{
         padding: 20px 20px;
     }
 
-    .bootcamp .grid-container{
+    .courses .grid-container{
         width: 100%;
         grid-template-columns: 1fr;
     }
