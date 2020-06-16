@@ -479,7 +479,7 @@ header.sticky ul li a
 
 /* Free resources Section */
 
-.free-resources{
+.login{
     margin: 0;
     padding: 0;
     display: flex;
@@ -491,35 +491,35 @@ header.sticky ul li a
     text-align: center;
 }
 
-.free-resources .content{
+.login .content{
     color: #fff;
     padding: 0 100px;
 }
 
-.free-resources .content h1{
+.login .content h1{
     font-size: 40px;
     letter-spacing: 2px;
     font-weight: 800;
     margin-bottom: 30px;
 }
 
-.free-resources .content h1 span{
+.login .content h1 span{
     color: aqua;
     font-size: 50px;
 }
 
-.free-resources .content h3{
+.login .content h3{
     font-size: 15px;
     letter-spacing: 3px;
 }
 
-.free-resources .content h2{
+.login .content h2{
     font-size: 35px;
     letter-spacing: 2px;
     padding-bottom: 20px;
 }
 
-.free-resources input[type=text], input[type=password] {
+.login input[type=text], input[type=password] {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -534,7 +534,7 @@ header.sticky ul li a
     letter-spacing: 2px;
 }
 
-.free-resources button {
+.login button {
     background-color: #80FF00;
     color: rgb(57, 12, 100);
     padding: 14px 0;
@@ -546,20 +546,20 @@ header.sticky ul li a
     font-weight: 500;
 }
 
-.free-resources button a{
+.login button a{
     text-decoration: none;
 }
 
-.free-resources button:hover{
+.login button:hover{
     background-color: rgb(121, 241, 241);
     transition: 0.5s ease-in-out;
 }
 
-.free-resources .forgot-password{
+.login .forgot-password{
     margin-top: 20px;
 }
 
-.free-resources .forgot-password a{
+.login .forgot-password a{
     color: #80FF00;
     letter-spacing: 1px;
     font-size: 15px;
@@ -863,19 +863,19 @@ footer .copyright{
 
     /* End About section */
 
-    /* Free Resources Section */
-    .free-resources{
+    /* Login Section */
+    .login{
         margin: 50px 0;
     }
 
-    .free-resources .content{
+    .login .content{
         padding: 0 40px;
     }
-    .free-resources .content h1{
+    .login .content h1{
         font-size: 35px;
         margin-top: 50px;
     }
-    .free-resources .content h1 span{
+    .login .content h1 span{
         font-size: 40px;
     }
     /* End Free Resources Section */
